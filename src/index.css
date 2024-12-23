@@ -1,0 +1,9 @@
+/* File: src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Anda bisa tambahkan styling global lainnya di sini. */
+body {
+  @apply bg-gray-50 text-gray-800;
+}
