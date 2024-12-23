@@ -109,7 +109,7 @@ Word: "${englishWord}"
     console.log("Using model (checkSpelling):", model);
 
     try {
-      const response = await fetch('http://localhost:3001/api/glhf', {
+      const response = await fetch('https://flash-inggris-production.up.railway.app/api/glhf', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
