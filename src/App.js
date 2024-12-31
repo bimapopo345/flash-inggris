@@ -1,14 +1,15 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Flashcard from './components/Flashcard';
-import WordList from './components/WordList';
-import Quiz from './components/Quiz';
-import Settings from './components/Settings';
-import PhoneticVowels from './components/PhoneticVowels';
-import PhonemeChart from './components/PhonemeChart';
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Flashcard from "./components/Flashcard";
+import WordList from "./components/WordList";
+import Quiz from "./components/Quiz";
+import Settings from "./components/Settings";
+import PhoneticVowels from "./components/PhoneticVowels";
+import PhonemeChart from "./components/PhonemeChart";
+import Translate from "./components/Translate";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/settings" element={<Settings />} />
           <Route path="/phoneticvowels" element={<PhoneticVowels />} />
           <Route path="/phonemechart" element={<PhonemeChart />} />
+          <Route path="/translate" element={<Translate />} />
         </Routes>
       </div>
     </Router>
